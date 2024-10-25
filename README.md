@@ -11,7 +11,7 @@ Weatheria is a simple, user-friendly weather application built with React, allow
   
 ## Demo
 
-[Live Demo](#) - *[Add link to live demo if available](https://weatheria-gamma.vercel.app/)*
+[Live Demo](#) - *[Weatheria](https://weatheria-gamma.vercel.app/)*
 
 ## Tech Stack
 
