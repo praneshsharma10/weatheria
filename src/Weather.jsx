@@ -393,7 +393,7 @@ const Weather = () => {
 
         <button
           onClick={toggleUnit}
-          className="bg-green-500 hover:bg-green-600 text-white p-2 rounded w-full transition duration-300"
+          className="bg-blue-500 hover:bg-blue-600 text-white p-2 rounded w-full transition duration-300"
         >
           {unit === 'metric' ? 'Switch to Fahrenheit' : 'Switch to Celsius'}
         </button>
