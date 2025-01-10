@@ -83,12 +83,12 @@ const Weather = () => {
 
             <div className="flex justify-around items-center mb-4 ml-2">
               <div>
-                <h1 className={`text-lg font-semibold ${isDarkMode ? 'text-blue-400' : 'text-blue-700'}`}>
+                <h1 className={`text-lg font-semibold ${isDarkMode ? 'text-blue-400' : 'text-black'}`}>
                   Temperature: {weatherData.main.temp}°{unit === 'metric' ? 'C' : 'F'}
                 </h1>
               </div>
               <div>
-                <h1 className={`text-lg font-semibold ${isDarkMode ? 'text-blue-400' : 'text-blue-700'}`}>
+                <h1 className={`text-lg font-semibold ${isDarkMode ? 'text-blue-400' : 'text-black'}`}>
                   Condition: {weatherData.weather[0].description}
                 </h1>
               </div>
@@ -96,21 +96,21 @@ const Weather = () => {
 
             <div className="flex justify-around items-center mb-4 ml-2">
               <div>
-                <h1 className={`text-lg font-semibold mb-4 ${isDarkMode ? 'text-blue-400' : 'text-blue-700'}`}>
+                <h1 className={`text-lg font-semibold mb-4 ${isDarkMode ? 'text-blue-400' : 'text-black'}`}>
                   Humidity: {weatherData.main.humidity}%
                 </h1>
               </div>
               <div>
-                <h1 className={`text-lg font-semibold mb-4 ${isDarkMode ? 'text-blue-400' : 'text-blue-700'}`}>
+                <h1 className={`text-lg font-semibold mb-4 ${isDarkMode ? 'text-blue-400' : 'text-black'}`}>
                   Wind Speed: {weatherData.wind.speed} {unit === 'metric' ? 'm/s' : 'mph'}
                 </h1>
               </div>
             </div>
 
-            <h1 className={`text-md font-semibold mb-4 ${isDarkMode ? 'text-blue-400' : 'text-blue-700'}`}>
+            <h1 className={`text-md font-semibold mb-4 ${isDarkMode ? 'text-blue-400' : 'text-black'}`}>
               Date: {new Date().toLocaleDateString()}
             </h1>
-            <h1 className={`text-md font-semibold mb-4 ${isDarkMode ? 'text-blue-400' : 'text-blue-700'}`}>
+            <h1 className={`text-md font-semibold mb-4 ${isDarkMode ? 'text-blue-400' : 'text-black'}`}>
               Time: {new Date().toLocaleTimeString()}
             </h1>
           </div>
